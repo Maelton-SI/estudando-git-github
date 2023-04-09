@@ -1,0 +1,40 @@
+git init -> Cria/Inicia um repositório
+git status -> Informa o status do projeto, se existe algum arquivo novo ou modificação para ser armazenada no repositório.
+git add -> Seleciona dados para serem comitados
+
+git commit -m ''-> Realiza um commit (armazenamento no repositório)
+git commit -am '' -> Adiciona e realiza commit
+
+git log -> Exibe detalhadamente o histórico de commits realizados no repositório
+git log --oneline -> Exibe o histórico de commits realizados em linhas por commit
+git log --graph -> Exibe o histórico de commits realizados em forma de gráfico
+git log --graph --all -> Exibe o histórico de commits realizados em forma de gráfico, exibindo todos os ramos
+git log --oneline --graph -> Exibe o histórico de commits realizados em linhas de gráfico por commit
+git log --oneline --graph --all -> Exibe o histórico de commits realizados em linhas de gráfico por commit, exibindo todos os ramos
+
+git branch -> Identifica o ramo em que o projeto se encontra
+
+git checkout <hash> -> Direciona projeto a um determinado hash
+git checkout <file> -> O arquivo retornará ao estado em que estava na ultima versão commitada
+git checkout main -> Retorna para a versão do ultimo commit realizado no ramo main
+
+git diff -> Retorna mudanças realizadas no projeto. OBS.: Após o uso do comando git add, as mudanças não aparecerão
+
+git reset head -> Remove conteúdo adicionado pelo comando git add
+git reset --hard <hash> -> Remove todos os commits posteriores ao commit do hash especificado
+
+git checkout -b '' -> Cria um novo ramo no projeto
+
+git merge <branch_name> -> Une ramos em um unico, se ouvir conflito entre arquivos dos ramos, o comando resultará em erro
+git merge --abort -> Cancela união de ramos
+
+git remote -> Verifica se existe algum repositório remoto
+git remote -v -> Exibi detalhes a respeito dos repositórios remotos do projeto
+git remote add '' <link/SSH> -> Adiciona repositório remoto chamado '' ao projeto
+git push -u '' '' -> Realliza um push (envio) do projeto para o repositório remoto de nome '' no ramo '' que é o ramo principal do projeto/repositório remoto
+
+git clone <link> -> Clona o repositório remoto do link
+git pull -> Atualiza o repositório local a partir do GitHub
+git fetch -> Usado para fazer o download das alterações que estão no repositório remoto, para poder fazer uma analise do que foi modificado e resolver os problemas de confito, o git fetch equivale ao git pull, porem não faz o merge/fusão dos projetos
+
+git checkout <remote_repository_name> -> Após utilizar o git fetch, esse comando pode ser utilizado para analisar a versão do projeto que está no repositório remoto

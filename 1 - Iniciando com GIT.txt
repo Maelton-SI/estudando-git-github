@@ -1,0 +1,20 @@
+Configurações iniciais do GIT
+
+SETTERS:
+git config --global user.name 'Maelton Lima'
+git config --global user.email 'maelton.lima812@gmail.com'
+git config --global core.editor <system_variable_name_for_editor>
+
+GETTERS:
+git config user.name
+git config user.email
+
+Principais comandos no terminal do GIT
+
+cd -> Entra em pasta
+pwd -> Diz o local/pasta atual
+ls -> Lista as pastas e arquivos do local/pasta atual
+ls -a -> Lista pastas e arquivos ocultos
+mkdir -> Cria pastas
+touch -> Cria arquivos
+clear -> limpa a tela

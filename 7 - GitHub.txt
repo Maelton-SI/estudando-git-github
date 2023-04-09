@@ -1,0 +1,23 @@
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+
+-> Criando repositório remoto
+git remote -> Verifica se existe algum repositório remoto
+git remote -v -> Exibi detalhes a respeito dos repositórios remotos do projeto
+git remote add origin <link/SSH> -> Adiciona repositório remoto chamado 'origin' ao projeto
+git push -u origin main -> Realliza um push (envio) do projeto para o repositório remoto de nome 'origin' no ramo main que é o ramo principal do projeto/repositório remoto
+
+-> Clonando repositórios do GitHub
+1. Crie o repositório no GitHub
+2. Selecione a checkbox README.md
+3. Clique no butão Clonar ou Download
+4. Copie o link
+5. Acesse o diretório desejado para a cópia do repositório pelo Git Bash
+6. Use o comand git clone <link>, utilizando é claro, o link copiado no passo 4
+
+Comandos utilizados para gerar autorizações de acesso:
+
+git config user.name
+git config credential.username
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"

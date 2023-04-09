@@ -1,0 +1,14 @@
+-> GIT, o que é ?
+Git é um sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software, mas pode ser usado para registrar o histórico de edições de qualquer tipo de arquivo.
+
+-> O que é um repositório ?
+Repositório, ou repo, é um diretório onde os arquivos do seu projeto ficam armazenados. Ele pode ficar em um depósito do GitHub ou em seu computador. Você pode armazenar códigos, imagens, áudios, ou qualquer outra coisa relacionada ao projeto no diretório.
+
+-> Grafo de commits
+É armazenado dentro da pasta 'object' da pasta .git
+Git armazena o conteúdo do projeto representando as mudanças atraves de um grafo de commits.
+Grafo, é uma estrutura que contem objetos relacionados.
+Commit, é um comentário que você escreve sempre que modifica algo no seu projeto.
+
+-> Hash
+Identificador de cada commit

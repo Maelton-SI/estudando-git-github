@@ -1,0 +1,1 @@
+O git não gera novas cópias do projeto para cada novo commit, ele apenas rastreia as alterações do projeto armazenando de forma inteligente todas as mudanças que são feitas.

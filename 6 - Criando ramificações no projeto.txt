@@ -1,0 +1,17 @@
+git checkout -b -> Cria um novo ramo no projeto
+
+------------------------------------------------
+git checkout -b MinhaNovaBrach
+Depois, quando quiser subir a branch, faça os commits:
+
+git commit -m 'Comentário do commit da minha nova branch'
+Depois, subindo de fato:
+
+git push --set-upstream origin MinhaNovaBrach
+-----------------------------------------------------
+
+A nova branch herda todos os commits anteriores ao atual do ramo pai
+
+git merge <branch_name> -> Une ramos em um unico, se ouvir conflito entre arquivos dos ramos, o comando resultará em erro
+
+Apos unir os ramos é importante adicionar e commitar (add and commit or just -am)
